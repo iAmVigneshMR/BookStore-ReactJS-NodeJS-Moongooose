@@ -1,0 +1,74 @@
+$color : rgb(68, 67, 67);
+$color1 : white;
+$color2 : #ff5924;
+$color3 : #00bfa6;
+$color4 : #191919;
+$font1: 'Poppins', sans-serif;
+$font2: 'Raleway', sans-serif;
+
+#lst-container{
+    width: 100%;
+    position: relative;
+    .lst-contents{
+        .login-con{
+            position: absolute;
+            top: 35%;
+            right: 0%;
+            padding-right: 10%;
+            // float: right;
+            color: $color;
+            h1{
+                font-size: 3.5rem;
+                font-family: $font1;
+            }
+            p{
+                font-family: $font1;
+                font-size: 3rem;
+            }
+            .clr1{
+                padding: 3px 15px;
+                font-size: 2rem;
+                border-radius: 3px;
+                outline: none;
+                background-color: $color1;
+                border: 2px solid $color3;
+            }
+            .clr2{
+                color: $color;
+                text-decoration: none;
+            }
+            .clr1:hover{
+                border: 2px solid $color3;
+                background-color: $color3;
+                cursor: pointer;
+                transition: ease-out 0.5s;
+            }
+            .clr2:hover{
+                color: $color1;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 769px){
+    #lost{
+        width: 100%;
+    }
+    #lst-container{
+        h1{
+            color: $color1;
+        }
+        p{
+            color: $color1;
+        }
+    }
+}
+@media only screen and (min-width: 768px){
+    #lst-container{
+    h1{
+        color: $color3;
+    }
+    p{
+        color: $color3;
+    }
+}
+}

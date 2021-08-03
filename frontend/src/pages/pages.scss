@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@200&display=swap');
+$font1: 'Poppins', sans-serif;
+$font2: 'Raleway', sans-serif;
+$color : black;
+$color1 : white;
+$color2 : #ff5924;
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+#hom-container{
+    width: 100%;
+    position: relative;
+    .hom-contents{
+        img{
+            width: 100%;
+            height: 100vh;
+        }
+        .img-contents{
+            position: absolute;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            top: 50%;
+            background-color: rgba(114, 119, 119,0.5);
+            color: $color;
+        }
+        .btn-2,.lnk{
+            padding: 0px 20px;
+            font-size: 2rem;
+            border-radius: 2px;
+            outline: none;
+            border: none;
+            margin: 10px;
+            // background-color: $color2;
+        }
+        .btn-2:hover{
+            background-color: $color2;
+            transition: ease-in 0.5s;
+            color: $color1;
+            // border: 1px solid white;
+        }.lnk:hover{
+            background-color: $color2;
+            transition: ease-in 0.5s;
+            color: $color1;
+            // border: 1px solid white;
+        }
+    }
+}
+
+#img-bac{
+    z-index: -1;
+    position: fixed;
+}
+
+#page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+#page_404  img{ width:100%;
+}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:8rem;
+ text-align: center;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:8rem;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{
+        // margin-top:-50px;
+        font-size: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }

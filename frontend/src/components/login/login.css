@@ -1,0 +1,173 @@
+#loginsvg {
+  padding: 0;
+}
+
+#log-container {
+  position: relative;
+  width: 100%;
+}
+
+#log-container .log-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#log-container .log-contents .svg-contents {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#log-container .log-contents .form-contents {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 50px 50px;
+}
+
+#log-container .log-contents .form-contents .frm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#log-container .log-contents .form-contents form input {
+  margin: 5px 0px;
+  outline: none;
+  padding: 10px 5px;
+  color: #444343;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00bfa6;
+  border-radius: 5px;
+}
+
+#log-container .log-contents .form-contents form ::-webkit-input-placeholder {
+  color: #00bfa6;
+}
+
+#log-container .log-contents .form-contents form :-ms-input-placeholder {
+  color: #00bfa6;
+}
+
+#log-container .log-contents .form-contents form ::-ms-input-placeholder {
+  color: #00bfa6;
+}
+
+#log-container .log-contents .form-contents form ::placeholder {
+  color: #00bfa6;
+}
+
+#log-container .log-contents .form-contents form input:focus {
+  border: 2px solid #00bfa6;
+}
+
+#log-container .log-contents .form-contents p {
+  font-size: 1.8rem;
+}
+
+#log-container .log-contents .form-contents p .clr {
+  color: #444343;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#log-container .log-contents .form-contents p .clr:hover {
+  color: #00bfa6;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+#log-container .log-contents .form-contents .btn-4 {
+  padding: 3px 15px;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  outline: none;
+  background-color: white;
+  border: 2px solid #00bfa6;
+  color: #444343;
+}
+
+#log-container .log-contents .form-contents .btn-4:hover {
+  border: 2px solid #00bfa6;
+  color: white;
+  background-color: #00bfa6;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+.sec-div {
+  margin-top: -339px;
+}
+
+#loginsvg {
+  width: 90%;
+  margin: 50px 0px;
+  padding: 50px 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .svg-contents {
+    display: none;
+  }
+  .frm {
+    padding: 118px 0px 150px 0px;
+    margin: 80px 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .svg-contents {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .form-contents {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .frm {
+    padding: 50px 50px;
+    margin: 50px 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .svg-contents {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .form-contents {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .frm {
+    padding: 50px 50px;
+    margin: 50px 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .svg-contents {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .form-contents {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .frm {
+    padding: 50px 50px;
+    margin: 50px 50px;
+  }
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,199 @@
+#authBlock {
+  width: 500px;
+  margin: 10px auto;
+  height: auto;
+}
+
+#authBlock article {
+  height: 100vh;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#authBlock article > div {
+  background: #2c2542;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 2px;
+}
+
+#authBlock article div h1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+#authBlock article div p {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.7rem;
+}
+
+#authBlock article div form {
+  width: 100%;
+}
+
+#authBlock article div form label {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 0 0;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+
+#authBlock article div form .form-group {
+  position: relative;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#authBlock article div form input {
+  width: 100%;
+  border-radius: 1px;
+  background-color: transparent;
+  border-bottom: 1px solid #9184bc;
+  color: #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+input:focus + label,
+input:focus-within + label {
+  position: absolute;
+  top: 0;
+  -webkit-transition: ease all 0.7s;
+  transition: ease all 0.7s;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  background-color: transparent !important;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#authBlock button,
+.phoneBtn {
+  width: 100%;
+  border-radius: 4px;
+  background: linear-gradient(263deg, #5909b3, #7f0dff);
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  padding: 15px 0;
+}
+
+.register_Block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.register_Block a {
+  color: #b085e1d1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-shadow: 1px 2px 2px #111;
+}
+
+.register_Block a:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px 20px;
+}
+
+.phoneBtn {
+  margin: 14px 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  background: #0574f6;
+  text-transform: capitalize;
+}
+
+.register_Block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.register_Block a {
+  color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-shadow: 1px 2px 2px #9e9ba5;
+}
+
+.register_Block a:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px 20px;
+}
+
+.authMenu a img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 13px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=auth.css.map */

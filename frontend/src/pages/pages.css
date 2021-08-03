@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@200&display=swap");
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+#hom-container {
+  width: 100%;
+  position: relative;
+}
+
+#hom-container .hom-contents img {
+  width: 100%;
+  height: 100vh;
+}
+
+#hom-container .hom-contents .img-contents {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50%;
+  background-color: rgba(114, 119, 119, 0.5);
+  color: black;
+}
+
+#hom-container .hom-contents .btn-2, #hom-container .hom-contents .lnk {
+  padding: 0px 20px;
+  font-size: 2rem;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  margin: 10px;
+}
+
+#hom-container .hom-contents .btn-2:hover {
+  background-color: #ff5924;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+  color: white;
+}
+
+#hom-container .hom-contents .lnk:hover {
+  background-color: #ff5924;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+  color: white;
+}
+
+#img-bac {
+  z-index: -1;
+  position: fixed;
+}
+
+#page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+#page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 8rem;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contant_box_404 {
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=pages.css.map */

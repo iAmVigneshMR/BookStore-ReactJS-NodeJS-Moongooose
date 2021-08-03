@@ -1,0 +1,37 @@
+#App {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top:65px;
+}
+
+.App-header {
+  // margin-top:25px;
+  background-color: #282c34;
+  // min-height: 10vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.user-container {
+  display: grid ;
+  justify-content: center;
+  align-items: center;
+  // flex-direction: column;
+  padding: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1.8rem;
+}
+
+.info-item {
+  width: 15vw;
+  // height: 5vh;
+  padding: 2em;
+  border: 2px solid rgb(159, 12, 22);
+  align-self: center;
+  background-color: #63b7af;
+  border-radius: 2em;
+}

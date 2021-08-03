@@ -1,0 +1,86 @@
+//for register and to check email
+POST http://localhost:5000/book-api/signup
+Content-Type: application/json
+
+{
+    "username":"msdgnesh",
+    "email":"Vshgjghk@gmail.com",
+    "password":"fnlk"
+}
+
+
+###
+
+//for register and to check email
+
+POST http://localhost:5000/book-api/login
+Content-Type: application/json
+
+{
+    "email":"Vshghkjghk@gmail.com",
+    "password":"fnlk"
+}
+
+###
+
+//to get all users with books
+
+GET  http://localhost:5000/book-api/getAllBooks
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+//to save books
+
+POST  http://localhost:5000/book-api/saveBooks
+Content-Type: application/json
+
+{
+    "title":"yo", 
+    "author":"kin", 
+    "description":"in this world", 
+    "publishDate":"10-12", 
+    "pages":"4454", 
+    "cost":"4.45",
+    "usersbook":"61068b7a066dbe41279d19ed"
+}
+
+###
+
+//to edit books with id
+
+PUT http://localhost:5000/book-api/editBooks/610788c00875a623bed63b5b
+Content-Type: application/json
+
+{
+    "title":"ydfhfghgkjhkhgfho", 
+    "author":"kin", 
+    "description":"in this world", 
+    "publishDate":"10-12", 
+    "pages":"4454", 
+    "cost":"4.45"
+}
+
+###
+
+//to delete books with id
+
+DELETE http://localhost:5000/book-api/deleteBooks/610788c00875a623be63b5b
+Content-Type: application/json
+{
+
+}
+
+###
+
+//to find books with id
+
+GET  http://localhost:5000/book-api/findBooks/61079fa366382b2c42daa94f
+Content-Type: application/json
+{
+
+}
