@@ -33,6 +33,11 @@ const Createbooks = () => {
       let usersbook = pat._id;
       let handleSubmit = async e => {
         e.preventDefault();
+        if(setState===""){
+          alert("please fill the book details")
+        }
+        alert("books details created")
+        window.location.assign("/account")
         try {
             let data = { title,
                 author,
@@ -41,19 +46,8 @@ const Createbooks = () => {
                 pages,
                 cost,
                 usersbook };
-          let postData = await axios.post('/book-api/saveBooks',data)
-          .then(res =>{
-            console.log(postData);
-            if(res.status == 201){
-                window.location.assign("/")
-                // localStorage.setItem("userInfo",JSON.stringify(res.data));
-            }
-        }).catch(err => {
-            console.log(err);
-            alert("not created")
-        })
-          window.Location.assign("/account");
-          console.log(postData);
+          let postData = await axios.post('/book-api/saveBooks',data);
+          // console.log(postData);
         } catch (error) {
           console.log(error);
         }
