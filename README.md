@@ -1,10 +1,10 @@
 # Softlets-task
 
 # install
-! frontend
+! frontend : 
     npm install axios react-router-dom bootstrap@4.6 
 
-! backend
+! backend : 
     npm install bcryptjs jsonwebtoken cors express mongoose nodemon
 
 # Navigation
