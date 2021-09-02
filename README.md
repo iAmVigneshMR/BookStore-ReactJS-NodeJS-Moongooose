@@ -1,4 +1,4 @@
-# Softlets-task
+# BookStore
 
 # install
 ! frontend : 
