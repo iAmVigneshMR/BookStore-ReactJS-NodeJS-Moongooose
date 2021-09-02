@@ -52,19 +52,43 @@ const authUser = (async (req, res) => {
 });
 
 //to update password
+// const updatePass = (async (req, res) => {
+//     try {
+//         let { password } = req.body;
+//         console.log(password);
+//         const user = await usersignup.findByIdAndUpdate(
+//           req.params.id,
+//           {
+//             password
+//         },
+//         { new: true }
+//         );
+//           console.log(user);
+//         return res.status(201).json(user);
+//       } catch (err) {
+//         console.error(err);
+//         res.status(500).json("SERVER ERROR");
+//       }
+// });
+
+//to update password
 const updatePass = (async (req, res) => {
     try {
-        const { password } = req.body;
-        const user = await usersignup.findById({ _id: req.params.id });
-        //   console.log(user);
-          if (user !== (await user.matchPassword(password))) {
-            res.json({
-              _id: user._id,
-              email: user.password
-            });
-          } else {
-            res.status(401).json({ msg:"enter different password" });
-          }
+        let { password } = req.body;
+        const user = await usersignup.findById(req.params.id);
+        console.log(user);
+        if (!user && (await user.matchPassword(password))) {
+           usersignup.findByIdAndUpdate(
+            req.params.id,
+            {
+              password
+            },
+            { new: true }
+            );
+          res.status(201).json({msg:"password updated"})
+        } else {
+          res.status(401).json({ msg:"enter new Password" });
+        }
       } catch (err) {
         console.error(err);
         res.status(500).json("SERVER ERROR");

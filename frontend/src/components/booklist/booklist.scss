@@ -14,6 +14,9 @@
   align-items: center;
   justify-content: center;
   color: white;
+  .display-1{
+    font-size: 3rem;
+  }
 }
 
 .user-container {
@@ -28,11 +31,24 @@
 }
 
 .info-item {
-  width: 15vw;
+  width: 200px;
   // height: 5vh;
-  padding: 2em;
+  line-height: 12px;
+  padding: 35px;
   border: 2px solid rgb(167, 141, 142);
   align-self: center;
   background-color: #f0f0f0;
-  border-radius: 2em;
+  border-radius: 15px;
+  margin: 0px 0px 15px 0px;
+}
+
+.display-1{
+  font-size: 3rem;
+}
+.card1{
+  margin: 20px 0px 10px 470px ;
+  .card-body1{
+    border: 2px solid rgb(93, 161, 189);
+    border-radius: 15px;
+  }
 }

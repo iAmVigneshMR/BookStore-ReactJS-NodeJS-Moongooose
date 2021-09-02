@@ -16,23 +16,23 @@ const Deletebooks = () => {
 
     let deleteBook = async e => {
         await axios.delete(`/book-api/deleteBooks/${bookId}`);
-        alert("Post Deleted...");
+        alert("Book Deleted...");
         window.location.assign('/account');
     }
     return (
         <Fragment>
                 <div id="App">
       <header className="App-header">
-        <h2>Book Details</h2>
+        <h2 className="display-1">Delete Book</h2>
       </header>
-      <div className="user-container">
-        <div  className="info-item">
-          <h5>Title : {userData.title}</h5>
-          <h5>Author : {userData.author}</h5>
-          <h5>Cost : {userData.cost}</h5>
-          <h5>Description : {userData.description}</h5>
-          <h5>Pages : {userData.pages}</h5>
-          <h5>PublishDate : {userData.publishDate}</h5>
+      <div className="card card1" style={{"width":"28rem"}}>
+        <div  className="card-body card-body1">
+          <h5 className="card-title">Title : {userData.title}</h5>
+          <h5 className="card-title">Author : {userData.author}</h5>
+          <h5 className="card-title">Cost : {userData.cost}</h5>
+          <h5 className="card-title">Description : {userData.description}</h5>
+          <h5 className="card-title">Pages : {userData.pages}</h5>
+          <h5 className="card-title">PublishDate : {userData.publishDate}</h5>
       </div>
     </div>
     <Link to="./account"><button className="btn btn-info btn-lg">Go Back</button></Link>

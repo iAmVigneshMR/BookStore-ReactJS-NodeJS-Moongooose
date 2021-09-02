@@ -1,0 +1,81 @@
+#App-header1 {
+  top: 85px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#App-header1 .display-2 {
+  color: white;
+  background-color: #282c34;
+  font-size: 3rem;
+  text-align: center;
+  margin: 61px 0px 0px 0px;
+  width: 100%;
+}
+
+#App1 {
+  text-align: center;
+  font-size: 2.5rem;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+#App1 .container1 {
+  background-color: #5a96ce;
+  padding: 52px 5px;
+}
+
+#App1 .container1 .nme1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#App1 .container1 :hover {
+  color: black;
+}
+
+#App1 .container2 {
+  background-color: #e4d2d2;
+  padding: 20px 12px;
+}
+
+#App1 .container2 .user-container1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn5 {
+  margin: 20px 5px;
+}
+
+.display-2 {
+  font-size: 3rem;
+}
+
+.card2 {
+  width: 200px;
+  margin: 5px 0px;
+}
+
+.card2 .card-body2 {
+  border: 2px solid #5da1bd;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=main.css.map */

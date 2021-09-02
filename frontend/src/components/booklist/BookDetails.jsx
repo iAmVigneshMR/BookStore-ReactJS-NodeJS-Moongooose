@@ -1,7 +1,7 @@
 import axios from '../../Axios';
 import React, { Fragment, useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
-// import "./booklist.css";
+import "./booklist.css";
 
 const BookDetails = () => {
     const [userData, setUserData] = useState("");
@@ -19,8 +19,8 @@ const BookDetails = () => {
       <header className="App-header">
         <h2 className="display-1">Book Details</h2>
       </header>
-      <div className="card .mr-3 " style={{"width":"28rem"}}>
-        <div  className="card-body">
+      <div className="card card1" style={{"width":"28rem"}}>
+        <div  className="card-body card-body1">
           <h5 className="card-title">Title : {userData.title}</h5>
           <h5 className="card-title">Author : {userData.author}</h5>
           <h5 className="card-title">Cost : {userData.cost}</h5>

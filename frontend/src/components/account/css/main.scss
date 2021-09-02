@@ -1,0 +1,61 @@
+#App-header1 {
+  top:85px;
+  // min-height: 10vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .display-2{
+    color: white;
+    background-color: #282c34;
+    font-size: 3rem;
+    text-align: center;
+    margin: 61px 0px 0px 0px;
+    width: 100%;
+  }
+}
+
+#App1 {
+    text-align: center;
+    font-size: 2.5rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+    .container1{
+      background-color: rgb(90, 150, 206);
+      padding: 52px 5px;
+      .nme1{
+          color: white;
+          font-size: 1.5rem;
+      }:hover{
+          color: black;
+      }
+    }
+    .container2{
+        background-color: rgb(228, 210, 210);
+        // width: 70%;
+        padding: 20px 12px;
+        .user-container1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+  }
+
+  
+  
+  .btn5{
+    margin:20px 5px;
+  }
+  .display-2{
+    font-size: 3rem;
+  }
+  .card2{
+    width: 200px;
+    margin: 5px 0px ;
+    .card-body2{
+      border: 2px solid rgb(93, 161, 189);
+      border-radius: 15px;
+    }
+  }
